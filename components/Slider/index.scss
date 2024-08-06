@@ -1,0 +1,10 @@
+@import "@/assets/styles/variables.scss";
+.splide__list {
+  gap: 1.042vw;
+}
+.splide__slide {
+  &-img {
+    width: 32.292vw;
+    height: 15.156vw;
+  }
+}

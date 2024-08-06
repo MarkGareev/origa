@@ -1,0 +1,37 @@
+@import "@/assets/styles/variables.scss";
+
+.handlebar {
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    #070707 0%,
+    #0f0f0d 52.5%,
+    #151514 77.31%,
+    #171816 90%,
+    #1a1a18 100%
+  );
+  display: flex;
+  align-items: center;
+
+  &-img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &-caption {
+    position: absolute;
+    top: 1.563vw;
+    color: #fff;
+    @include text-oceanic;
+  }
+  &-title {
+    margin: auto;
+    color: #fff;
+    @include text-oceanic;
+    font-size: 6.25vw;
+    text-align: center;
+    line-height: 80%;
+  }
+}

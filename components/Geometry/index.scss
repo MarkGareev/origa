@@ -1,0 +1,54 @@
+@import "@/assets/styles/variables.scss";
+
+.geometry {
+  background-color: #fff;
+  overflow: hidden;
+  &-caption {
+    position: absolute;
+    @include text-oceanic;
+  }
+  &-track {
+    width: 32.76vw;
+    margin: 10.417vw 7.604vw 10.417vw auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.042vw;
+    &-title {
+      opacity: 0.4;
+      @include text-oceanic;
+    }
+    &-text {
+      font-size: 1.667vw;
+      @include text-oceanic;
+    }
+  }
+  &-slider {
+    display: flex;
+    width: max-content;
+  }
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 10.833vw;
+    height: 46.875vw;
+    overflow: hidden;
+    margin-right: 10.833vw;
+    &-video {
+      width: 56.51vw;
+    }
+    &-img {
+      width: 41.354vw;
+      height: 46.51vw;
+    }
+    &-text {
+      width: 20.208vw;
+      text-align: center;
+      &-big {
+        @include text-oceanic;
+        font-size: 6.25vw;
+        letter-spacing: -0.02em;
+        width: max-content;
+      }
+    }
+  }
+}
